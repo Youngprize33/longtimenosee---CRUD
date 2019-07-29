@@ -1,0 +1,91 @@
+.post-detail-container {
+  margin: 0 250px;
+}
+
+.post-read-header {
+  border-bottom: 1px solid #111;
+  padding: 20px 0;
+}
+
+.post-read-header div {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.post-read-action a {
+  margin-left: 8px;
+}
+
+.post-read-action button {
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  font-size: inherit;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+#post-delete {
+  display: none;
+}
+
+
+.post-read-body {
+  padding: 50px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #111;
+}
+
+.post-read-end {
+  padding: 50px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #111;
+}
+
+.post-read-img img {
+  max-height: 800px;
+  max-width: 800px;
+}
+
+#comment-form textarea {
+  padding: 15px;
+  width: 100%;
+}
+
+.c-input-container {
+  margin-bottom: 15px;
+}
+
+.c-input-container input {
+  padding: 15px;
+  width: 100px;
+  height: 40px;
+}
+
+.c-pub-date {
+  text-align: center;
+  color: #666;
+  font-size: 0.7rem;
+}
+
+.comment-submit {
+  display: block;
+  float: right;
+  padding: 8px 13px;
+  font-size: 1rem;
+  background-color: coral;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.comment-submit:hover {
+  background-color: white;
+  color: coral;
+  transition: background-color 0.2s;
+  border: 2px solid coral;
+  padding: 6px 11px;
+}
